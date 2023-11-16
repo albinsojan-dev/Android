@@ -4,11 +4,11 @@
 ````
   <queries>
         <package android:name="com.airbus.agnet.work.production" />
-    </queries>
+  </queries>
 ````
 
 ### Step 2 - Copy the below code to Activity 
 ````
- val i = packageManager.getLaunchIntentForPackage("com.airbus.agnet.work.production")
- startActivity(i)
+ val intent = packageManager.getLaunchIntentForPackage("com.airbus.agnet.work.production")
+ startActivity(intent)
 ````
