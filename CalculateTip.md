@@ -1,4 +1,10 @@
 ### Calculate Tip amount
+
+/**
+ * Calculates the tip based on the user input and format the tip amount
+ * according to the local currency.
+ * Example would be "$10.00".
+ */
 ````
    var amountInput by remember { mutableStateOf("") }
 
